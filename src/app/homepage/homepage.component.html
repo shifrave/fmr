@@ -1,0 +1,16 @@
+<button (click)="logOut()">LogOut</button>
+<div *ngIf="profileData">
+  <div>
+    <strong>Id:</strong>
+    <div>{{profileData.userId}}</div>
+  </div>
+  <div>
+    <strong>Name:</strong>
+    <div>{{profileData.fullName}}</div>
+  </div>
+  <div>
+    <strong>Email:</strong>
+    <div>{{profileData.email}}</div>
+  </div>
+</div>
+
